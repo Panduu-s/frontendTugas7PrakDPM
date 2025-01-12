@@ -130,46 +130,119 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         paddingTop: Constants.statusBarHeight,
+        backgroundColor: "#f3f4f6", // Light gray background for contrast
     },
     title: {
         marginTop: 16,
         marginHorizontal: 16,
+        fontSize: 28, // Larger font size for better visibility
+        fontWeight: "bold",
+        color: "#1a202c", // Darker color for contrast
+        fontFamily: "sans-serif-medium", // Improved font family for modern look
     },
     listContainer: {
         padding: 16,
     },
     card: {
+        backgroundColor: "#ffffff",
         marginBottom: 16,
-        borderRadius: 8,
+        borderRadius: 12,
+        padding: 16,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
+        elevation: 3,
     },
     description: {
         marginTop: 8,
-        color: 'gray',
+        fontSize: 16, // Slightly larger font size for better readability
+        color: "#4a5568", // Medium gray for good contrast with the white card
+        lineHeight: 22, // Increased line height for better readability
+        fontFamily: "sans-serif", // Modern and clean font
     },
     fab: {
-        position: 'absolute',
+        position: "absolute",
         right: 16,
         bottom: 16,
+        width: 64, // Larger FAB for easier tapping
+        height: 64,
+        borderRadius: 32,
+        backgroundColor: "#2563eb", // Vibrant blue for contrast
+        justifyContent: "center",
+        alignItems: "center",
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.3,
+        shadowRadius: 6,
+        elevation: 5,
     },
     inputContainer: {
         padding: 16,
         borderTopLeftRadius: 16,
         borderTopRightRadius: 16,
+        backgroundColor: "#ffffff", // White background for clarity
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: -2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
         elevation: 5,
     },
     input: {
+        height: 50,
+        borderWidth: 1,
+        borderColor: "#1e1e1e", // Light border color for a soft appearance
+        borderRadius: 8,
+        paddingHorizontal: 14,
         marginBottom: 12,
+        backgroundColor: "#f9fafb", // Very light gray for input background
+        fontSize: 16, // Standardized input text size
+        color: "#1a202c", // Dark text color for contrast
+        fontFamily: "sans-serif", // Clean font style
     },
     addButton: {
+        height: 50,
+        backgroundColor: "#38a169", // Vibrant green for better visibility
+        justifyContent: "center",
+        alignItems: "center",
+        borderRadius: 8,
         marginTop: 12,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.15,
+        shadowRadius: 3,
+        elevation: 3,
+    },
+    addButtonText: {
+        fontSize: 18, // Larger font for better readability
+        fontWeight: "600",
+        color: "#ffffff", // White text for contrast with green button
+        fontFamily: "sans-serif-medium",
     },
     cancelButton: {
+        height: 50,
+        backgroundColor: "#e53e3e", // Bright red for visibility
+        justifyContent: "center",
+        alignItems: "center",
+        borderRadius: 8,
         marginTop: 8,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.15,
+        shadowRadius: 3,
+        elevation: 3,
+    },
+    cancelButtonText: {
+        fontSize: 18, // Larger font for clarity
+        fontWeight: "600",
+        color: "#ffffff", // White text for contrast
+        fontFamily: "sans-serif-medium",
     },
     loading: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#f3f4f6", // Same as the main background
     },
 });
 

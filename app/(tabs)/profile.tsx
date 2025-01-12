@@ -96,18 +96,19 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 16,
+        color: '#ffffff',
     },
     title: {
         fontSize: 24,
         fontWeight: 'bold',
         marginBottom: 24,
-        color: '#333',
+        color: '#ffffff',
     },
     label: {
         fontSize: 18,
         fontWeight: 'bold',
         marginTop: 16,
-        color: '#333',
+        color: '#ffffff',
     },
     value: {
         fontSize: 18,
