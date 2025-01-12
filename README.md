@@ -1,3 +1,3 @@
-![tugas7ss1](https://github.com/user-attachments/assets/00ea9d48-11de-44a5-920f-69d92b2b18e4)
-![tugas7ss](https://github.com/user-attachments/assets/ddbb618e-98c0-452c-b78f-7052ac61762d)
-![tugas7ss2](https://github.com/user-attachments/assets/f0a23896-fe43-4681-a317-e3e6dd91236c)
+![tugas7ss2](https://github.com/user-attachments/assets/39c6c8b7-8f2d-4f9f-bac5-b441f26b0e65)
+![tugas7ss1](https://github.com/user-attachments/assets/0ee7c086-4d9b-4f64-a6e7-d9f19d79f4db)
+![tugas7ss](https://github.com/user-attachments/assets/ba19108e-2410-49ad-a93b-0f984880be0d)
